@@ -40,6 +40,7 @@ else
     cat <<EOF > "${TFVARS_FILE}"
 project="${PROJECT}"
 zone="${ZONE}"
+location="${ZONE}"
 EOF
 fi
 
